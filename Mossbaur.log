@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  23 JAN 2019 00:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  23 JAN 2019 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -100,6 +100,15 @@ LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
+
+LaTeX Warning: Label `fig:image' multiply defined.
+
+
+LaTeX Warning: Label `fig:image' multiply defined.
+
+
+LaTeX Warning: Label `fig:image' multiply defined.
+
 
 LaTeX Warning: Label `fig:image' multiply defined.
 
@@ -218,17 +227,59 @@ File: c.jpg Graphic file (type jpg)
  <use c.jpg>
 Package pdftex.def Info: c.jpg used on input line 73.
 (pdftex.def)             Requested size: 105.19916pt x 77.09251pt.
- [5 <./c.jpg>] (./Mossbaur.aux)
+ [5 <./c.jpg>]
+<d.jpg, id=33, 2166.0925pt x 1401.235pt>
+File: d.jpg Graphic file (type jpg)
+ <use d.jpg>
+Package pdftex.def Info: d.jpg used on input line 100.
+(pdftex.def)             Requested size: 108.31096pt x 70.06584pt.
+
+<e.jpg, id=34, 1688.3075pt x 1478.52374pt>
+File: e.jpg Graphic file (type jpg)
+ <use e.jpg>
+Package pdftex.def Info: e.jpg used on input line 108.
+(pdftex.def)             Requested size: 84.42032pt x 73.93051pt.
+
+Overfull \hbox (7.1399pt too wide) in paragraph at lines 113--114
+[]\T2A/cmr/m/n/10 Такую струк-ту-ру под-уров-ней, во-об-ще го-во-ря, име-ют как
+ ядра-излучатели,
+ []
+
+[6 <./d.jpg> <./e.jpg>] <f.jpg, id=38, 2569.6pt x 1170.3725pt>
+File: f.jpg Graphic file (type jpg)
+ <use f.jpg>
+Package pdftex.def Info: f.jpg used on input line 116.
+(pdftex.def)             Requested size: 128.48752pt x 58.52205pt.
+
+[7 <./f.jpg>]
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 132.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 132.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 132.
+
+Missing character: There is no г in font cmr10!
+Missing character: There is no д in font cmr10!
+Missing character: There is no е in font cmr10!
+
+Overfull \hbox (6.99033pt too wide) in paragraph at lines 145--145
+[]\T2A/cmr/bx/n/12 Измерение крас-но-го сме-ще-ния в ла-бо-ра-тор-ных усло-
+ []
+
+[8] [9] (./Mossbaur.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3395 strings out of 493029
- 44648 string characters out of 6136233
+ 3414 strings out of 493029
+ 44825 string characters out of 6136233
  112668 words of memory out of 5000000
- 6908 multiletter control sequences out of 15000+600000
- 6061 words of font info for 17 fonts, out of 8000000 for 9000
+ 6922 multiletter control sequences out of 15000+600000
+ 7682 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,23p,1405b,621s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
@@ -240,12 +291,13 @@ public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Mossbaur.pdf (5 pages, 1675278 bytes).
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm1000.pfb>
+Output written on Mossbaur.pdf (9 pages, 3464162 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
